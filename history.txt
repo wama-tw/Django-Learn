@@ -8,3 +8,10 @@ python manage.py startapp myapp
 # Add urls & views
 python manage.py runserver
 
+# Connect to RDS PostgreSQL
+# Create RDS PostgreSQL on AWS
+pip install psycopg2-binary
+# Change settings
+pip install python-dotenv
+python manage.py makemigrations
+python manage.py migrate
