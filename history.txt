@@ -5,4 +5,6 @@ python -m django --version
 django-admin startproject django101
 cd django101
 python manage.py startapp myapp
+# Add urls & views
+python manage.py runserver
 
