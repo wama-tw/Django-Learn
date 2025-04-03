@@ -1,0 +1,8 @@
+conda create -n django-learn python=3.12
+source activate django-learn
+pip install django
+python -m django --version
+django-admin startproject django101
+cd django101
+python manage.py startapp myapp
+
